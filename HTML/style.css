@@ -1,0 +1,31 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	margin: 0px;
+}
+
+#Div-LeftPanel {
+	padding: 2px;
+	float: left;
+	width: 45%;
+	border: ridge;
+}
+
+#Div-RightPanel {
+	padding: 2px;
+	float: right;
+	width: 45%;
+	border: ridge;
+}
+
+#Div-TopPanel {
+	border: none;
+}
+
+#Div-BottomPanel {
+	padding: 2px;
+	border: ridge;
+}
