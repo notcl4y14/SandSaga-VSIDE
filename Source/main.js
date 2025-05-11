@@ -446,7 +446,7 @@ return {
 
 			ui_state.select_rebuild("Select-Tools", Object.keys(content_state.tools));
 
-			// Set the select element to the renamed brush
+			// Set the select element to the renamed tool
 			select_element.selectedIndex = select_element.options.length - 1;
 		}
 

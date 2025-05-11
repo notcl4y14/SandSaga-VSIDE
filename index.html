@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sand Saga - Visual Scenario IDE</title>
+	<link rel="stylesheet" type="text/css" href="HTML/style.css">
+	<script type="text/javascript" src="Source/main.js" defer></script>
+</head>
+<body>
+	<div id="Div-TopPanel">
+		<div id="Div-LeftPanel">
+			<p>Brushes</p>
+			<hr>
+			<select name="Brushes" id="Select-Brushes">
+				<option value="Sand">Sand</option>
+			</select>
+			<button id="Button-AddBrush">Add Brush</button>
+
+			<p style="height:32px;"></p>
+
+			<p>Tools</p>
+			<hr>
+			<select name="Tools" id="Select-Tools">
+				<option value="Sand">Sand</option>
+			</select>
+			<button id="Button-AddTool">Add Tool</button>
+		</div>
+		<div id="Div-RightPanel">
+			<p>Brush Properties</p>
+			<hr>
+			<input id="Input-BrushName" type="text" name="Brush Name" placeholder="Brush Name">
+			<br>
+			<input id="Input-BrushBehavior" type="text" name="Brush Behavior" placeholder="Brush Behavior">
+			<button id="Button-ChooseBrushBehavior">Choose...</button>
+			<br>
+			<input id="Input-BrushColor" type="text" name="Brush Color" placeholder="Brush Color">
+			<br>
+			<input id="Input-BrushColorDiff" type="text" name="Brush Color Diff" placeholder="Brush Color Diff">
+			<br><br>
+			<button id="Button-RandomizeBrush">Randomize</button>
+			<button id="Button-RemoveBrush">Remove</button>
+
+			<p style="height:32px;"></p>
+
+			<p>Tool Properties</p>
+			<hr>
+			<input id="Input-ToolName" type="text" name="Tool Name" placeholder="Tool Name">
+			<br>
+			<input id="Input-ToolBrush" type="text" name="Tool Brush" placeholder="Tool Brush">
+			<br>
+			<input id="Input-ToolSize" type="text" name="Tool Size" placeholder="Tool Size">
+			<br>
+			<input id="Input-ToolBadgeCodeName" type="text" name="Tool Badge Code Name" placeholder="Tool Badge Code Name">
+			<br>
+			<input id="Input-ToolBadgeDisplayName" type="text" name="Tool Badge Display Name" placeholder="Tool Badge Display Name">
+			<br>
+			<input id="Input-ToolBadgeColor" type="text" name="Tool Badge Color" placeholder="Tool Badge Color">
+			<br>
+			<input id="Input-ToolBadgeCategory" type="text" name="Tool Badge Category" placeholder="Tool Badge Category">
+			<br><br>
+			<button id="Button-RandomizeTool">Randomize</button>
+			<button id="Button-RemoveTool">Remove</button>
+		</div>
+	</div>
+	<div id="Div-BottomPanel">
+		<div id="Div-LeftPanel" style="border:none;">
+			<button id="Button-Export">Export</button>
+			<textarea id="Textarea-ExportCode"></textarea>
+		</div>
+		<div id="Div-RightPanel" style="border:none;">
+			<p>Sand Saga - Visual Scenario IDE (v1)</p>
+			<p>Made by notcl4y14</p>
+			<a href="https://github.com/notcl4y14/SandSaga-VSIDE">GitHub repo</a>
+		</div>
+	</div>
+</body>
+</html>
